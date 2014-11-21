@@ -15,7 +15,7 @@ if len(sys.argv) > 1:
 
                     try:
                         s = socket.socket()
-                        s.settimeout(0.1)
+                        s.settimeout(0.05)
                         s.connect((ip,port))
                         s.send("\r\n\r\n")
                         result = s.recv(16) #See if we get any response at all
