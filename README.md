@@ -10,6 +10,7 @@ ros-helper-scripts
 * netSearch.py: search selected segments of the local network for ROS Master, present to user, and offer use of rosremote.sh
    * Usage: netSearch.py 192.168.1.*
    * Placing the * symbol will search that entire subnet address, from 0-255
-* rosBWMonitor.sh: get the bandwidth usage and rate of all rostopics on a ros master. Should be run on whatever system would receive the data.
+* rosBWMonitor.sh: get the bandwidth usage and rate of all rostopics on a ros master. 
    * Usage:  ./rosBWMonitor.sh
+   * Note: Should be run on whatever system would receive the data, for example a laptop on wifi.
    * To pipe to a CSV (for later analysis) use: ./rosBWMonitor.sh >> topics.csv
