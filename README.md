@@ -19,6 +19,6 @@ ros-helper-scripts
 
 * Also of interest: 
   * Alias the rosdep command to ease use: 
-  * alias rosdepquick="install --from-paths src --ignore-src --rosdistro=indigo -y"
+  * alias rosdepquick="rosdep install --from-paths src --ignore-src --rosdistro=indigo -y"
 
    
