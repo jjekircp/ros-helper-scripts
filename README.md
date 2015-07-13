@@ -14,3 +14,11 @@ ros-helper-scripts
    * Usage:  ./rosBWMonitor.sh
    * Note: Should be run on whatever system would receive the data, for example a laptop on wifi.
    * To pipe to a CSV (for later analysis) use: ./rosBWMonitor.sh >> topics.csv
+* Benchmark.bash : automatically installs dependacies and runs a simple benchmark to quickly get data about a computer
+ 
+
+* Also of interest: 
+  * Alias the rosdep command to ease use: 
+  * alias rosdepquick="install --from-paths src --ignore-src --rosdistro=indigo -y"
+
+   
